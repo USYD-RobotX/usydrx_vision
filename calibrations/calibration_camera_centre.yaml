@@ -1,5 +1,5 @@
-image_width: 1920
-image_height: 1440
+image_width: 1936
+image_height: 1080
 camera_name: camera_centre
 camera_matrix:
   rows: 3

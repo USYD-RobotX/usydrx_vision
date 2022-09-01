@@ -1,7 +1,7 @@
 <launch>
   <!-- Driver parameters, these parameters affect the way the ROS driver works -->
   <arg name="name" default="camera_left" doc="The name of the camera"/>
-  <arg name="ip" default="172.17.7.169" doc="The IP for the camera to connect to"/>
+  <arg name="ip" default="172.16.154.242" doc="The IP for the camera to connect to"/>
   <arg name="guid" default="" doc="The GUID for the camera to connect to"/>
   <arg name="frame_id" default="$(arg name)" doc="The frame id of the camera"/>
   <arg name="use_measurement_time" default="false" doc="Use the measurement time from the camera"/>
@@ -54,14 +54,14 @@
   <arg name="decimation_x" default="1"/>
   <arg name="decimation_y" default="1"/>
   <!-- ROI -->
-  <arg name="width" default="1936"/>
-  <arg name="height" default="1216"/>
-  <arg name="offset_x" default="0"/>
-  <arg name="offset_y" default="0"/>
+  <arg name="width" default="1200"/>
+  <arg name="height" default="720"/>
+  <arg name="offset_x" default="496"/>
+  <arg name="offset_y" default="68"/>
   <!-- Pixel Format -->
   <arg name="pixel_format" default="BGR8Packed"/>
-  <!-- Bandwidth -->
-  <arg name="stream_bytes_per_second" default="41000000"/>      
+ <!-- Bandwidth -->
+  <arg name="stream_bytes_per_second" default="41500000"/>    
   <!-- PTP Synchronization -->
   <arg name="ptp_mode" default="Off"/>
   <!-- GPIO -->
