@@ -1,6 +1,6 @@
-image_width: 1080
-image_height: 720
-camera_name: camera2
+image_width: 1920
+image_height: 1440
+camera_name: camera_centre
 camera_matrix:
   rows: 3
   cols: 3
