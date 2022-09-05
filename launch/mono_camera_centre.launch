@@ -56,8 +56,8 @@
   <!-- ROI -->
   <arg name="width" default="1200"/>
   <arg name="height" default="720"/>
-  <arg name="offset_x" default="248"/>
-  <arg name="offset_y" default="68"/>
+  <arg name="offset_x" default="736"/>
+  <arg name="offset_y" default="400"/>
   <!-- Pixel Format -->
   <!-- Pixel Format -->
   <arg name="pixel_format" default="BGR8Packed"/>
